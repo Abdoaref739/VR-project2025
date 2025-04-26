@@ -1,0 +1,1971 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+html{
+    scroll-behavior: smooth;
+}    
+body{
+    background-image: url('./images/photo4.jpg');
+    background-size: 1420px 700px;
+    background-attachment: fixed;
+    transition: 0.7s ease;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 17px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 166, 0);
+}
+::-webkit-scrollbar-corner{
+    background-color: black;
+}
+.marq{
+    position: absolute;
+    width: 900px;
+    height: 46px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    margin-left: 210px;
+    margin-top: 750px;
+}
+.img1{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    margin-top: 3px;
+}
+.text1{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -240px;
+    margin-top: 9px;
+}
+.header{
+    position: absolute;
+    position: fixed;
+    z-index: 1000;
+    width: 520px;
+    height: 47px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 25px;
+    background-color: white;
+    margin: 25px 0px 0px 440px;
+    background-attachment: fixed;
+    box-shadow: 0 1px 10px black;
+}
+.mainText{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 500px;
+    color: white;
+    margin-left: 1100px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.header-text-name{
+    position: absolute;
+    margin-left: 1100px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gamesSection{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(218, 167, 0);
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 85px;
+}
+.gamesSection-dark{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #121212;
+    border: 1px solid white;
+    color: white;
+    margin-top: 5px;
+    margin-left: 85px;
+}
+.gamesSection-dark:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.gamesSection:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 166, 0);
+    background-color: rgb(250, 192, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.testSection{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(218, 167, 0);
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 195px;
+}
+.testSection:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 166, 0);
+    background-color: rgb(250, 192, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.levelsSection{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(218, 167, 0);
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 395px;
+}
+.levelsSection:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 166, 0);
+    background-color: rgb(250, 192, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.aboutSection{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(218, 167, 0);
+    border-radius: 25px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 290px;
+}
+.aboutSection:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 166, 0);
+    background-color: rgb(250, 192, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.aboutSection-dark{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    margin-left: 290px;
+    color: white;
+}
+.aboutSection-dark:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+.testSection-dark{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 5px;
+    margin-left: 195px;
+}
+.testSection-dark:hover{
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    transition: 0.7s ease;
+    background-color: black;
+}
+.levelsSection-dark{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.levelsSection-dark:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.7s ease;
+}
+#moonIcon{
+    position: absolute;
+    font-size: 27px;
+    color: black;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+#moonIcon:hover{
+    color: rgb(250, 192, 0);
+}
+#sunIcon{
+    position: absolute;
+    display: none;
+    font-size: 27px;
+    color: black;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+#sunIcon:hover{
+    color: rgb(250, 192, 0);
+}
+.writer{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(250, 192, 0);
+    margin-top: 58px;
+    margin-left: 540px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: rgb(250, 192, 0);
+    background-color: white;
+    backdrop-filter: blur(2px);
+    animation: writer 5s infinite;
+    animation-direction: normal;
+    transition: 0.7s ease;
+}
+.writer2{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(250, 192, 0);
+    margin-top: 83px;
+    margin-left: 350px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: rgb(250, 192, 0);
+    background-color: white;
+    backdrop-filter: blur(2px);
+    animation: writer 5s infinite;
+    animation-direction: normal;
+    transition: 0.7s ease;
+}
+.writer3{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(250, 192, 0);
+    margin-top: 83px;
+    margin-left: 350px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: rgb(250, 192, 0);
+    background-color: white;
+    backdrop-filter: blur(2px);
+    animation: writer 5s infinite;
+    animation-direction: normal;
+    transition: 0.7s ease;
+}
+#writedText{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 500px;
+    color: white;
+    margin-left: 580px;
+    margin-top: 245px;
+}
+#getStarted{
+    position: absolute;
+    width: 95px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 360px;
+    margin-left: 635px;
+    color: white;
+
+}
+#getStarted:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.7s ease;
+}
+#arrowDown{
+    display: none;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    rotate: 90deg;
+    margin-top: 371px;
+    margin-left: 643px;
+}
+#login{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 27px;
+    margin-left: 105px;
+    color: white;
+    display: block;
+}
+#login:hover{
+    position: absolute;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: 0.7s ease;
+}
+#signup{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 27px;
+    margin-left: 240px;
+    color: white;
+}
+#signup:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.7s ease;
+}
+.levels{
+    position: absolute;
+    overflow: hidden;
+    width: 1348px;
+    height: 900px;
+    background-color: white;
+    margin-top: 780px;
+    margin-left: -8px;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    rotate: 180deg;
+    margin-left: -7px;
+    margin-top: 500px;
+}
+.wave2{
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin-left: -9px;
+    margin-top: 481px;
+}
+.levelsLabel{
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 60px 0px 0px 595px;
+}
+#level1{
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: 200px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("./images/4.jpg");
+    background-size: cover;
+}
+#level2{
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: 430px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("./images/level1.jpg");
+    background-size: cover;
+}
+#level3{
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: 650px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("./images/starterphoto.jpg");
+    background-size: cover;
+}
+.ball{
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(rgb(155, 0, 155), rgb(0, 89, 255));
+    margin-top: 470px;
+    margin-left: 1260px;
+    border-radius: 1500px;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 0.7s ease;
+    }
+    @keyframes rotation{
+        0%{
+            rotate: 360deg;
+        }
+    }
+    .ball2{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        border: 1px solid transparent;
+        background-image: linear-gradient(rgb(155, 0, 155), rgb(0, 89, 255));
+        margin-top: 110px;
+        margin-left: -150px;
+        border-radius: 1500px;
+        animation-name: rotation2;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        }
+        @keyframes rotation2{
+            0%{
+                rotate: 360deg;
+            }
+        }
+#blur1{
+    position: absolute;
+        display: none;
+        width: 100%;
+        height: 162px;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+}
+#blur2{
+    display: none;
+    width: 100%;
+    height: 162px;
+    backdrop-filter: contrast(110%);
+    margin-top: 0px;
+}
+#blur3{
+    display: none;
+    width: 100%;
+    height: 162px;
+    backdrop-filter: contrast(110%);
+    margin-top: 0px;
+}
+#bars{
+    display: none;
+}
+#text1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+    color: white;
+}
+#text2{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+    color: white;
+}
+#text3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+    color: white;
+}
+#sky{
+    position: absolute;
+
+    width: 100%; 
+    height: 250px;
+    background-image: linear-gradient(125deg, #0a002e, #002e4d);
+    margin-top: 1680px;
+    margin-left: -8px;
+}
+#sky2{
+    position: absolute;
+    width: 100%; 
+    height: 250px;
+    background-image: linear-gradient(125deg, #0a002e, #002e4d);
+    margin-top: 2500px;
+    margin-left: -8px;
+}
+#seperating-div{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(120deg, rgba(0, 0, 255, 0.24) 100%),  #266afd;
+}
+#aboutus-section{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 1700px;
+    margin-left: -10px;
+
+}
+.star{
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-image: linear-gradient(-45deg, #0051ff, #8db0fd9c);
+    filter: drop-shadow(0px 0px 6px #3b79ff);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: falling 4s  ease-in-out infinite;
+    animation-delay: 2s;
+    rotate: 45deg;
+}
+#seperating-div .star:nth-child(2){
+    animation-delay: 100ms;
+    margin-left: -10px;
+}#seperating-div .star:nth-child(3){
+    margin-left: 400px;
+}
+#seperating-div .star:nth-child(4){
+    animation-delay: 100ms;
+    margin-left: 600px;
+}
+#seperating-div .star:nth-child(5){
+    margin-left: 800px;
+}
+#seperating-div .star:nth-child(6){
+    animation-delay: 100ms;
+    margin-left: 1000px;
+}
+.dark-mode{
+    background-color: transparent;
+    border: 1.5px solid white;
+}
+.about-header-text{
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.about-header-text2{
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 600px;
+    margin-top: 90px;
+}
+#team-cards-div{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 1900px;
+    margin-left: -8px;
+}
+.our-team-text{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 622px;
+    margin-top: 90px;
+}
+.dev-card{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 530px;
+    transition: 0.7s ease;
+}
+.dev-card:hover{
+    box-shadow: 5px 10px;
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    display: none;
+    background-color: white;
+}
+#close-icon{
+    position: absolute;
+    display: none;
+}
+.main-text{
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 622px;
+    margin-top: 290px;
+}
+.tests-section{
+    position: absolute;
+    overflow: hidden;
+    width: 1350px;
+    height: 600px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left:1px;
+}
+#test1{
+    position: absolute;
+    width: 357px;
+    height: 172px;
+    background-color: white;
+    margin-left: 485px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+}
+.main-text{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+}
+#level1-blur{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: contrast(110%);
+    margin-top: 0px;
+    transition: 0.7s ease;
+}
+.available-text{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 2px;
+}
+#navigate-quiz1-button{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+#navigate-quiz1-button:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.7s ease;
+}
+.tests-text{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 590px;
+    margin-top: 90px;
+}
+#test2{
+    position: absolute;
+    width: 357px;
+    height: 172px;
+    background-color: white;
+    margin-left: 485px;
+    margin-top: 200px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+}
+.main-text2{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+}
+#level2-blur{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: contrast(110%);
+    margin-top: 0px;
+    transition: 0.7s ease;
+}
+.available-text2{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 2px;
+}
+#navigate-quiz2-button{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+#navigate-quiz2-button:hover{
+    position: absolute;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    transition: 0.7s ease;
+}
+.tests-text2{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 590px;
+    margin-top: 90px;
+}
+.games-section{
+    position: absolute;
+    overflow: hidden;
+    width: 1350px;
+    height: 600px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left:1px;
+}.games-text{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 620px;
+    margin-top: 90px;
+}
+#game1{
+    position: absolute;
+    width: 357px;
+    height: 172px;
+    background-color: white;
+    margin-left: 490px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: 0.7s ease;
+    background-image: url("Default_In_a_digitally_immersive_scene_a_boy_is_completely_abs_0.jpg");
+    background-size: cover;
+}
+.main-text{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 125px;
+    margin-top: 20px;
+    color: white;
+}
+#game1-blur{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: contrast(110%);
+    margin-top: 0px;
+    transition: 0.7s ease;
+}
+.available-text{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 2px;
+}
+#navigate-start1-button{
+    position: absolute;
+    width: 85px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+#navigate-start1-button:hover{
+    transition: 0.7s ease;
+    border-bottom-width: 3px;
+}
+#sky3{
+    position: absolute;
+    width: 100%; 
+    height: 250px;
+    background-image: linear-gradient(125deg, #0a002e, #002e4d);
+    margin-top: 850px;
+    margin-left: -1px;
+}
+#seperating-div{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(120deg, rgba(0, 0, 255, 0.24) 100%),  #266afd;
+}
+.about-header-text3{
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 630px;
+    margin-top: 90px;
+}
+.footer{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-top: 800px;
+    margin-left: 0px;
+    border: 1.5px solid black;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.logo-image{
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    margin-top: -34px;
+    margin-left: 400px;
+}
+.footer-header{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 600px;
+    margin-top: 28px;
+}
+.levelsSection-sidebar{
+    display: none;
+}
+.aboutSection-sidebar{
+    display: none;
+}
+.testSection-sidebar{
+    display: none;
+}
+.lang-sidebar{
+    display: none;
+}
+#moonIcon-sidebar{
+    display: none;
+}
+#sunIcon-sidebar{
+    display: none;
+}
+@keyframes falling{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100px;
+        transform: translateX(800px);
+    }
+}
+@keyframes writer{
+0%{
+    margin-left: 530px;
+}
+10%{
+    margin-left: 525px;
+}
+20%{
+    margin-left: 515px;
+}
+30%{
+    margin-left: 500px;
+}
+40%{
+    margin-left: 470px;
+}
+50%{
+    margin-left: 455px;
+}
+60%{
+    margin-left: 441px;
+}
+70%{
+    margin-left: 428px;
+}
+80%{
+    margin-left: 421px;
+}
+90%{
+    margin-left: 380px;
+}
+}
+@keyframes writer2{
+    0%{
+        margin-left: 400px;
+    }
+    10%{
+        margin-left: 290px;
+    }
+    20%{
+        margin-left: 290px;
+    }
+}
+.email-text{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 100px;
+}
+#container{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 220px;
+    transition: 0.7s ease;
+}
+.name-div{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    margin-left: -35px;
+}
+.work-div{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    margin-left: -33px;
+    margin-top: 4px;
+}
+.email-div{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.work-section{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.head-card-text{
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.email-section{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+.gamesSection-sidebar{
+    display: none;
+}
+@media screen and (max-width: 750px){ 
+    body{
+        background-image: url('./images/mainbackground.jpg');
+        background-size: 500px 650px;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+    .header{
+    display: none;
+    }
+    .mainText{
+        position: absolute;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 230px;
+        color: white;
+        margin-top: 35px;
+        cursor: pointer;
+        padding: 0px;
+    }
+    #testSection{
+        display: none;
+    }
+    #levelsSection{
+        display: none;
+    }
+    #aboutSection{
+        display: none;
+    }
+    #moonIcon{
+        display: none;
+    }
+    .writer{
+        display: none;
+    }
+    #writedText{
+        position: absolute;
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 500px;
+        color: white;
+        margin-left: 140px;
+        margin-top: 200px;
+    }
+    #getStarted{
+        position: absolute;
+        width: 98px;
+        height: 37px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 320px;
+        margin-left: 191px;
+        color: white;
+    
+    }
+    #getStarted:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 255, 255);
+        background-color: transparent;
+        transition: 0.7s ease;
+        margin-top: 320px;
+        margin-left: 191px;
+    }
+    .marq{
+        position: absolute;
+        width: 420px;
+        height: 42px;
+        border: 1.5px solid rgb(0, 0, 0);
+        padding: 0px;
+        margin: 0px;
+        border-radius: 5px;
+        margin-left: 25px;
+        margin-top: 775px;
+    }
+    #arrowDown{
+        display: none;
+        position: absolute;
+        font-size: 15px;
+        color: white;
+        rotate: 90deg;
+        margin-top: 332px;
+        margin-left: 200px;
+    }
+    #login{
+        display: none;
+    }
+    #signup{
+        display: none;
+    }
+    .levels{
+        width: 490px;
+        height: 800px;
+    }
+    .wave{
+        position: absolute;
+        width: 490px;
+        rotate: 180deg;
+        margin-left: -7px;
+        margin-top: 675px;
+    }
+    .levelsLabel{
+        position: absolute;
+        font-size: 32px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 60px 0px 0px 180px;
+    }
+    #level1{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 120px;
+        margin-top: 180px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/4.jpg");
+        background-size: cover;
+        box-shadow: 0px 0px 4px black;
+    }
+    .wave2{
+        position: absolute;
+        width: 720px;
+        height: 110px;
+        margin-top: 670px;
+        margin-left: -130px;
+        padding: 0px;
+    }
+    #level2{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 120px;
+        margin-top: 350px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/level1.jpg");
+        background-size: cover;
+        box-shadow: 0px 0px 4px black;
+    }
+    #level3{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 120px;
+        margin-top: 520px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/starterphoto.jpg");
+        background-size: cover;
+        box-shadow: 0px 0px 4px black;
+    }
+    .ball{
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        border: 1px solid transparent;
+        background-image: linear-gradient(rgb(155, 0, 155), rgb(0, 89, 255));
+        margin-top: 500px;
+        margin-left: 420px;
+        border-radius: 150px;
+        animation-name: rotation;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        transition: 0.7s ease;
+        }
+        .ball2{
+            position: absolute;
+        width: 150px;
+        height: 150px;
+        border: 1px solid transparent;
+        background-image: linear-gradient(rgb(155, 0, 155), rgb(0, 89, 255));
+        margin-top: 90px;
+        margin-left: -90px;
+        border-radius: 150px;
+        animation-name: rotation2;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        transition: 0.7s ease;
+            }
+    #blur1{
+        position: absolute;
+            display: none;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: contrast(110%);
+            margin-top: 0px;
+            transition: 0.7s ease;
+    }
+    #blur2{
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+        transition: 0.7s ease;
+    }
+    #blur3{
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+        transition: 0.7s ease;
+    }
+    #text1{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 75px;
+        color: white;
+    }
+    #text2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 75px;
+        color: white;
+    }
+    #text3{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 75px;
+        color: white;
+    }
+    #sky{
+        position: absolute;
+        width: 490px; 
+        height: 230px;
+        background-image: linear-gradient(125deg, #0a002e, #002e4d);
+        margin-top: 1580px;
+        margin-left: -9px;
+    }
+    #sky2{
+        position: absolute;
+        width: 490px; 
+        height: 230px;
+        background-image: linear-gradient(125deg, #0a002e, #002e4d);
+        margin-top: 2340px;
+        margin-left: -9px;
+    }
+    .writer{
+        display: none;
+    }
+    .writer2{
+        position: absolute;
+        width: 180px;
+        height: 38px;
+        margin-top: 75px;
+        margin-left: 95px;
+        animation: writer2 5s infinite;
+        animation-direction: normal;
+        transition: 0.7s ease;
+    }
+    .writer3{
+        position: absolute;
+        width: 140px;
+        height: 38px;
+        margin-left: 150px;
+        margin-top: 65px;
+        animation: writer3 5s infinite;
+    animation-direction: normal;
+    }
+    @keyframes writer2 {
+        0%{
+            margin-left: 75px;
+        }
+        10%{
+            margin-left: 65px;
+        }
+        20%{
+            margin-left: 54px;
+        }
+        30%{
+            margin-left: 43px;
+        }
+        40%{
+            margin-left: 33px;
+        }
+        50%{
+            margin-left: 15px;
+        }
+    }
+    @keyframes writer3 {
+        0%{
+            margin-left: 150px;
+        }
+        10%{
+            margin-left: 140px;
+        }
+        20%{
+            margin-left: 130px;
+        }
+        30%{
+            margin-left: 100px;
+        }
+        40%{
+            margin-left: 90px;
+        }
+        50%{
+            margin-left: 83px;
+        }
+        60%{
+            margin-left: 77px;
+        }
+        70%{
+            margin-left: 63px;
+        }
+        80%{
+            margin-left: 38px;
+        }
+    }
+    #aboutus-section{
+        position: absolute;
+        width: 500px;
+        height: 600px;
+        background-color: white;
+        border: 1px solid white;
+        margin-top: 1700px;
+        margin-left: -9px;
+    
+    }
+    .star{
+        position: absolute;
+        width: 10px;
+        height: 3px;
+        background-image: linear-gradient(-45deg, #0051ff, #8db0fd9c);
+        filter: drop-shadow(0px 0px 6px #3b79ff);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        animation: falling 4s  ease-in-out infinite;
+        animation-delay: 2s;
+        rotate: 45deg;
+    }
+    .about-header-text{
+        font-size: 35px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 183px;
+        margin-top: 87px;
+    }
+    #login{
+        display: none;
+    }
+    .about-header-text2{
+        font-size: 35px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 183px;
+        margin-top: 87px;
+    }
+    #team-cards-div{
+        position: absolute;
+        width: 490px;
+        height: 530px;
+        background-color: white;
+        margin-top: 1810px;
+        margin-left: -8px;
+    }
+    .our-team-text{
+        font-size: 32px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 210px;
+        margin-top: 80px;
+    }
+    .dev-card{
+        position: absolute;
+        width: 180px;
+        height: 250px;
+        background-color: white;
+        border: 1px solid black;
+        margin-top: 40px;
+        margin-left: 150px;
+        transition: 0.7s ease;
+    }
+    .main-text{
+        font-size: 25px;
+        font-family: 'Caveat', cursive;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        margin-left: 202px;
+        margin-top: 290px;
+    }
+    .tests-section{
+        position: absolute;
+        overflow: hidden;
+        width: 490px;
+        height: 500px;
+        margin-top: 230px;
+    }.tests-text{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 185px;
+        margin-top: 70px;
+    }
+    #test1{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 118px;
+        margin-top: 70px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/3.jpg");
+        background-size: cover;
+        box-shadow: 0px 0px 4px black;
+    }
+    .main-text{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 55px;
+        margin-top: 20px;
+        color: white;
+    }
+    #level1-blur{
+        position: absolute;
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+        transition: 0.7s ease;
+    }
+    .available-text{
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-weight: 400;
+        margin-left: 93px;
+        margin-top: -9px;
+    }
+    #navigate-quiz1-button{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    #navigate-quiz1-button:hover{
+        transition: 0.7s ease;
+        border-bottom-width: 3px;
+    }
+
+    .games-section{
+        position: absolute;
+        overflow: hidden;
+        width: 490px;
+        height: 500px;
+        margin-top: 230px;
+    }.games-text{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    #game1{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 118px;
+        margin-top: 70px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/Default_amulti_verse_pixels_world_and_a_happy_boy_blaying_cons_3.jpg");
+        background-size: cover;
+        box-shadow: 0px 0px 4px black;
+    }
+    .main-text{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 85px;
+        margin-top: 18px;
+        color: white;
+    }
+    #game1-blur{
+        position: absolute;
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+        transition: 0.7s ease;
+    }
+    .available-text{
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-weight: 400;
+        margin-left: 93px;
+        margin-top: -9px;
+    }
+    #navigate-start1-button{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    #navigate-start1-button:hover{
+        transition: 0.7s ease;
+        border-bottom-width: 3px;
+    }
+    .footer{
+        width: 488px;
+        height: 60px;
+        margin-top: 730px;
+        margin-left: -1px;
+    }
+    .logo-image{
+        width: 160px;
+        height: 140px;
+        margin-left: 60px;
+        margin-top: -24px;
+    }
+    .footer-header{
+        font-size: 15px;
+        margin-left: 220px;
+        margin-top: 23px;
+    }
+    #sidebar{
+        display: none;
+        position: absolute;
+        width: 420px;
+        height: 550px;
+        background-color: white;
+        margin: 18px 0px 0px 22px;
+        border-radius: 20px;
+        transition: 0.7s ease;
+    }
+    #bars{
+        position: absolute;
+        display: block;
+        font-size: 25px;
+        color: white;
+        margin: 43px 0px 0px 70px;
+        cursor: pointer;
+    }
+    #close-icon{
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        margin-left: 355px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    .gamesSection-sidebar{
+        display: block;
+        position: absolute;
+    width: 180px;
+    height: 35px;
+    border: 1.5px solid rgb(218, 167, 0);
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 350px;
+    margin-left: 118px;
+    }
+    .gamesSection-sidebar:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 166, 0);
+        background-color: rgb(250, 192, 0);
+        color: white;
+        transition: 0.7s ease;
+    }
+    .levelsSection-sidebar{
+        display: block;
+        position: absolute;
+    width: 180px;
+    height: 35px;
+    border: 1.5px solid rgb(218, 167, 0);
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    margin-left: 118px;
+    }
+    .levelsSection-sidebar:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 166, 0);
+        background-color: rgb(250, 192, 0);
+        color: white;
+        transition: 0.7s ease;
+    }
+    .aboutSection-sidebar{
+        display: block;
+        position: absolute;
+    width: 180px;
+    height: 35px;
+    border: 1.5px solid rgb(218, 167, 0);
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 170px;
+    margin-left: 118px;
+    }
+    .aboutSection-sidebar:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 166, 0);
+        background-color: rgb(250, 192, 0);
+        color: white;
+        transition: 0.7s ease;
+    }
+    .testSection-sidebar{
+        display: block;
+        position: absolute;
+    width: 180px;
+    height: 35px;
+    border: 1.5px solid rgb(218, 167, 0);
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 260px;
+    margin-left: 118px;
+    }
+    .testSection-sidebar:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 166, 0);
+        background-color: rgb(250, 192, 0);
+        color: white;
+        transition: 0.7s ease;
+    }
+    #moonIcon-sidebar{
+        display: none;
+        position:absolute;
+        width: 30px;
+        height: 30px;
+        font-size: 23px;
+        margin-left: 48px;
+        margin-top: -1px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.7s ease;
+        border: 1px solid black;
+        border-radius: 50px;
+        transition: 0.7s ease;
+    }
+    #sunIcon-sidebar{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        width: 30px;
+        height: 30px;
+        font-size: 23px;
+        margin-left: -1px;
+        margin-top: -1px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.7s ease;
+        border: 1px solid black;
+        border-radius: 50px;
+        transition: 0.7s ease;
+    }
+    .modes{
+        position: absolute;
+        width: 80px;
+        height: 30px;
+        border: 1.5px solid black;
+        border-radius: 15px;
+        margin-top: 410px;
+        margin-left: 170px;
+    }
+    #container{
+        position: absolute;
+        display: none;
+        width: 100%;
+        height: 130px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 220px;
+        transition: 0.7s ease;
+    }
+    .name-div{
+        position: absolute;
+        width: 350px;
+        height: 130px;
+        margin-left: -35px;
+    }
+    .work-div{
+        position: absolute;
+        width: 350px;
+        height: 130px;
+        margin-left: -33px;
+        margin-top: 4px;
+    }
+    .email-div{
+        display: none;
+    }
+    .work-section{
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .head-card-text{
+        position: absolute;
+        font-size: 23px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .email-section{
+        display: none;
+    }
+    #container{
+        position: absolute;
+        width: 180px;
+        height: 100px;
+        margin-top: 150px;
+    }
+    .head-card-text{
+        font-size: 15px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .work-section{
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 48px;
+        margin-top: 30px;
+    }
+    .levels{
+        margin-left: -7px;
+    }
+    #test2{
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        background-color: white;
+        margin-left: 120px;
+        margin-top: 220px;
+        cursor: pointer;
+        border: 2px solid black;
+        transition: 0.7s ease;
+        background-image: url("./images/3.jpg");
+        background-size: cover;
+    }
+    .main-text2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 80px;
+        margin-top: 20px;
+        color: white;
+    }
+    #level2-blur{
+        position: absolute;
+        display: none;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: contrast(110%);
+        margin-top: 0px;
+        transition: 0.7s ease;
+    }
+    .available-text2{
+        position: absolute;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-weight: 600;
+        margin-left: 93px;
+        margin-top: -6px;
+    }
+    #navigate-quiz2-button{
+        position: absolute;
+        width: 85px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    #navigate-quiz2-button:hover{
+        position: absolute;
+        border-bottom-width: 5px;
+        border-bottom-color: rgb(255, 255, 255);
+        background-color: transparent;
+        color: white;
+        transition: 0.7s ease;
+    }
+    .tests-text2{
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 590px;
+        margin-top: 90px;
+    }
+    #sky3{
+        position: absolute;
+        width: 100%; 
+        height: 240px;
+        background-image: linear-gradient(125deg, #0a002e, #002e4d);
+        margin-top: 725px;
+        margin-left: 1.5px;
+    }
+    #seperating-div{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-image: linear-gradient(120deg, rgba(0, 0, 255, 0.24) 100%),  #266afd;
+    }
+    .about-header-text3{
+        font-size: 40px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(rgb(144, 160, 255), rgb(0, 30, 199));
+        font-family: 'Caveat', cursive;
+        font-family: 'Noto Sans Arabic', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 195px;
+        margin-top: 90px;
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1378px) {
+    .wave{
+        width: 100%;
+    }
+    .wave2{
+        width: 100%;
+    }
+    .levels{
+        width: 100%;
+    }
+    .tests-section{
+        width: 100%;
+    }
+}
